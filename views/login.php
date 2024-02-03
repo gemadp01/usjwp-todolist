@@ -46,21 +46,26 @@
 <body>
     
     <!-- Login Section Start -->
-    <div class="container">
-        <form method="POST" action="">
-            <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username" placeholder="Username">
-            </div>
+    <div class="container" style="height:100vh; display:flex; justify-content:center; align-items:center; flex-direction:column">
+        <div class="form-group">
+            <form method="POST" action="">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Username">
+                </div>
 
-            <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Password">
-            </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
 
-            <button type="submit" name="login" id="login">Login</button>
-        </form>
-        <a href="register.php">Register</a>
+                <button type="submit" name="login" id="login">Login</button>
+            </form>
+        </div>
+
+        <div>
+            <a href="register.php">Register</a>
+        </div>
     </div>
     <!-- Login Section End -->
 

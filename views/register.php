@@ -31,7 +31,7 @@
 <body>
     
     <!-- Register Section Start -->
-    <div class="container">
+    <div class="container" style="height:100vh; display:flex; justify-content:center; align-items:center; flex-direction:column">
         <form method="post" action="">
             <div class="input-group">
                 <label for="nama_lengkap">Nama Lengkap</label>
@@ -54,6 +54,10 @@
 
             <button type="submit" name="register">Buat Akun</button>
         </form>
+
+        <div>
+            <a href="login.php">Sudah punya akun?</a>
+        </div>
     </div>
     <!-- Register Section End -->
 
